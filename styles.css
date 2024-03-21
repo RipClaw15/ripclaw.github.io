@@ -53,6 +53,24 @@ body {
 
 h1 {
     color: #333;
+    font-size: 3em;
+}
+
+h2 {
+    color: #333;
+    font-size: 3em;
+}
+h3 {
+    color: #333;
+    font-size: 2em;
+}
+h4{
+    color: #333;
+    font-size: 1.5em;  
+}
+
+p {
+    font-size: 1.2em;
 }
 
 #logo {
@@ -112,4 +130,114 @@ nav a {
     
 }
 
+
+.skills-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-column {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.skills-column:last-child {
+    margin-right: 0;
+}
+
+.skills-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-column ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.skills-column ul li:before {
+    content: "\2022"; 
+    color: #007bff; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+h2 {
+    size:10em;
+}
+
+
+
+
+#professional-experience {
+    
+    
+    border-radius: 10px;
+    
+}
+
+#professional-experience h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#professional-experience h4 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#professional-experience p {
+    margin-bottom: 10px;
+}
+
+#professional-experience b {
+    color: #007bff;
+}
+
+
+#education {
+    
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#education h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#education h4 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#education p,
+#education ul {
+    margin-bottom: 10px;
+}
+
+#education ul {
+    list-style: none;
+}
+
+#education ul li {
+    margin-bottom: 5px;
+}
+
+#education ul li:before {
+    content: "\2022"; 
+    color: #007bff; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
